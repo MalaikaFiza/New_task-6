@@ -1,0 +1,40 @@
+{
+  "about": {
+    "preview": "I'm Malaika, a front-end developer focusing on clean UI, responsive layouts and accessible code.",
+    "full": "Hello! I'm Malaika Zulqarnain. I create responsive websites and small full-stack projects using modern HTML, CSS and JavaScript. I enjoy making UI that is usable, accessible and attractive."
+  },
+  "services": [
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006771.png",
+      "title": "Web Design",
+      "desc": "Designing clean, modern interfaces and layouts for websites."
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/1006/1006777.png",
+      "title": "Front-End Development",
+      "desc": "Building responsive, accessible sites with HTML, CSS and JS."
+    },
+    {
+      "icon": "https://cdn-icons-png.flaticon.com/512/2913/2913444.png",
+      "title": "UI Prototyping",
+      "desc": "Interactive prototypes to validate UI and flows."
+    }
+  ],
+  "portfolio": [
+    {
+      "img": "https://images.unsplash.com/photo-1515879218367-8466d910aaa4?auto=format&fit=crop&w=1000&q=80",
+      "title": "Responsive Portfolio",
+      "desc": "Personal portfolio with responsive grid and animations."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=1000&q=80",
+      "title": "Product Landing Page",
+      "desc": "Product showcase with features and CTA."
+    },
+    {
+      "img": "https://images.unsplash.com/photo-1503602642458-232111445657?auto=format&fit=crop&w=1000&q=80",
+      "title": "Interactive Web App",
+      "desc": "Frontend interactions and form handling."
+    }
+  ]
+}
