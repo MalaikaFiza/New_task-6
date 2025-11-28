@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Malaika Zulqarnain — Home</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="logo" href="index.html">MalaikaZulqarnain</a>
+
+      <nav id="main-nav" class="nav">
+        <ul>
+          <li><a class="nav-link" href="index.html#home">Home</a></li>
+          <li><a class="nav-link" href="index.html#about">About</a></li>
+          <li><a class="nav-link" href="index.html#services">Services</a></li>
+          <li><a class="nav-link" href="index.html#portfolio">Portfolio</a></li>
+          <li><a class="nav-link" href="contact.html">Contact</a></li>
+        </ul>
+        <button id="menu-toggle" class="menu-toggle" aria-label="Toggle menu">☰</button>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <!-- Hero -->
+    <section id="home" class="hero container">
+      <div class="hero-text">
+        <h1>Hi, I'm <span class="accent">Malaika</span> — Front-End Developer</h1>
+        <p>I build clean, responsive websites and small full-stack apps.</p>
+        <div class="hero-actions">
+          <a class="btn" href="contact.html">Hire Me</a>
+          <a class="btn ghost" href="#portfolio">View Projects</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- About preview - loaded dynamically -->
+    <section id="about" class="section container">
+      <div id="about-content"></div>
+    </section>
+
+    <!-- Services - loaded dynamically -->
+    <section id="services" class="section container">
+      <h2>Services</h2>
+      <div id="services-container" class="cards"></div>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="section container">
+      <h2>Selected Projects</h2>
+      <div id="portfolio-container" class="portfolio-grid">
+        <!-- dynamically loaded -->
+      </div>
+    </section>
+
+    <!-- API example: Quotes -->
+    <section id="quotes" class="section container">
+      <h2>Inspirational Quotes</h2>
+      <div id="quotes-container" class="api-box">Loading quotes...</div>
+    </section>
+
+    <!-- CTA -->
+    <section class="section container cta">
+      <h3>Like what you see?</h3>
+      <p>Let's build something together — reach out via the contact page.</p>
+      <a class="btn" href="contact.html">Contact Me</a>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <p>© 2025 Malaika Zulqarnain. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
